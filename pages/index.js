@@ -51,7 +51,7 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })), // we no longer need useEffect and useState by this function
     },
-    revalidate: 10,
+    revalidate: 5,
   }; // obj
 }
 
